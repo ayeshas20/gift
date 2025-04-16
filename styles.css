@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fef2f2;
+  margin: 0;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.gift-box {
+  font-size: 5rem;
+  cursor: pointer;
+  animation: bounce 1s infinite alternate;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #f74f88;
+}
+
+#giftImage {
+  margin-top: 20px;
+  max-width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#giftImg {
+  width: 100%;
+  border-radius: 10px;
+}
